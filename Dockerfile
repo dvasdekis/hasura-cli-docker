@@ -10,5 +10,5 @@ WORKDIR /hasuracli
 USER hasuracli
 
 
-ENTRYPOINT ["usr/local/bin/hasura"]
+ENTRYPOINT ["usr/local/bin"]
 CMD ["-?"]
