@@ -11,5 +11,6 @@ USER hasuracli
 RUN curl -L https://github.com/hasura/graphql-engine/raw/master/cli/get.sh | INSTALL_PATH=/hasuracli bash
 
 # Run Hasura on start
+WORKDIR /hasuracli/migrations
 ENTRYPOINT ["/hasuracli/hasura"]
 CMD ["-?"]
