@@ -4,10 +4,12 @@ Hasura CLI in a docker instance, so that hasura metadata migrations can be appli
 
 Your migrations folder should resemble the below:
 
+```
 .
 ├── config.yaml
 └── migrations
     └── metadata.json
+```
 
 Usage:
 
