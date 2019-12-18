@@ -4,4 +4,4 @@ Hasura CLI in a docker instance, so that migrations can be applied ephemerally w
 
 Usage:
 
-`docker run --rm dvasdekis/hasura-cli-docker:latest -v /local/path/to/migrations:./migrations hasura metadata apply --endpoint "http://${hasura_fixed_ext_ip}:80" --admin-secret "${hasura_admin_secret}"`
+`docker run --rm dvasdekis/hasura-cli-docker:latest -v /local/path/to/migrations:./migrations hasura metadata apply --endpoint "http://your_hasura_address:80" --admin-secret "your_hasura_admin_secret"`
