@@ -13,6 +13,6 @@ Your migrations folder should resemble the below:
 
 Usage:
 
-`docker run --rm --volume /path/to/your/migrations/folder:/hasuracli/migrations docker.io/dvasdekis/hasura-cli-docker:latest metadata apply --endpoint "http://your_hasura_address:80" --admin-secret "your_hasura_admin_secret" --project migrations`
+`docker run --restart on-failure --rm --volume /path/to/your/migrations/folder:/hasuracli/migrations docker.io/dvasdekis/hasura-cli-docker:latest metadata apply --endpoint "http://your_hasura_address:80" --admin-secret "your_hasura_admin_secret" --project migrations`
 
 [Docker Hub link](https://hub.docker.com/repository/docker/dvasdekis/hasura-cli-docker)
