@@ -17,4 +17,4 @@ Usage:
 
 [Docker Hub link](https://hub.docker.com/repository/docker/dvasdekis/hasura-cli-docker)
 
-Hasura version: v1.1.0-beta.3
+Hasura version: v1.1.0
