@@ -8,7 +8,7 @@ WORKDIR /hasuracli
 USER hasuracli
 
 # Install HasuraCLI
-RUN curl -L https://github.com/hasura/graphql-engine/raw/master/cli/get.sh | INSTALL_PATH=/hasuracli bash
+RUN curl -L https://github.com/hasura/graphql-engine/raw/stable/cli/get.sh | INSTALL_PATH=/hasuracli bash
 
 # Run Hasura on start
 ENTRYPOINT ["/hasuracli/hasura"]
